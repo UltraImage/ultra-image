@@ -1,0 +1,17 @@
+{% assign gallery = site.data.gallery %}
+
+<!--================= Gallery Section ==================-->
+<section class="gallery-area">
+    {% for img in gallery %}
+        <div class="single-gallery wow fadeInUp" data-wow-duration="{{ site.wowDuration }}" data-wow-delay="{{ site.wowDelay2 }}">
+            <img src="{{ img.url }}" alt="">
+            <div class="gallery-hover">
+                <h4>{{ img.title }}<span>{{ img.subTitle }}</span></h4>
+                <ul>
+                    <li><a href="{{ img.url }}" data-rel="prettyPhoto"><i class="icon-search-6"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    {% endfor %}
+    <div class="clearfix"></div>
+</section>

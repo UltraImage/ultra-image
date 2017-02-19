@@ -1,0 +1,3391 @@
+/*
+  Theme Name: Slight Business
+  Theme URL: http://www.themewar.com/html/sb
+  Author: Themewar
+  Author URI: http://www.themewar.com
+  Description: Slight Business  - Responsive Corporate Site Template
+  Version: 1.0
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+1. Home One
+    i. Header Area
+    ii. Menu ( Dropdown / Fixed )
+    iii. Slider Area
+    iv. Feature Area
+    v. Team Area
+    vi. About Company
+    vii. Skill Area
+    vii. Testimonial Area
+    xi. Our Service Area
+    x. Latest post Area
+    xi. Map Area 
+    xii. Blog Area
+    xii. Footer Area
+
+2. Home Two
+    i. Header Area
+    ii. Feature Area
+    iii. Service Area
+    iv. Skill Area
+    v. Team Member Area
+    vi. Gallery Area
+    vii. About Company Area
+    viii. Contact Area 
+    ix. Blog Area
+
+3. Home Three
+    i. Header Area
+    ii. Latest Project Area
+    iii. About Company Area
+    iv. Gellery Area
+    v. Map Area
+    vi. Blog Area
+
+4. Home Dark
+    i. Headear Area
+    ii. Feature Area 
+    iii. Gellery Area
+    iv. About Company area
+
+5. Folio Page One
+    i. Header Area
+    ii. Bread Crumbs Area
+
+6. Portfolio Page Two
+7. Portfolio Page Three
+8. Portfolio Page Four
+9. Blog With Sidebar Page
+10. Blog Grid Page
+11. Blog Post Page
+12. Contact Page
+    i. Subscribe Section
+
+13. Events Page
+14. Event Details Page
+15. About Us Page
+16. Member Page
+17. 404 Page
+18. Back To Top
+19. Loader
+==========================================================================*/
+@media screen and (min-width:1824px) and (max-width:2565px){
+    /********************* Header area *****************/
+    .presetArea:before{
+        background: none repeat scroll 0 0 #de3c2f;
+        content: "";
+        height: 900px;
+        left: 365px;
+        outline: 20px solid rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: 0;
+        transform: skew(45deg, 0deg);
+        width: 380px;
+    }
+    .layoutstyle {
+        margin-top: 40px;
+    }
+    .presetBorder {
+        margin: 25px 0;
+    }
+    .switch:before {
+        display: none;
+    }
+    .presetArea h2 {
+        color: #4c4c4c;
+        font-size: 40px;
+        line-height: 0.8;
+        position: relative;
+        text-align: center;
+    }
+    .accentColor {
+        margin-top: 225px;
+    }
+    .psTitle {
+        font-size: 30px;
+        line-height: 0.8;
+        margin: 0 0 25px;
+    }
+    .colorChem {
+        margin-top: 38px;
+    }
+    .header-area {
+        height: 1000px;
+        width: 62%;
+        padding-left: 60px;
+    }
+    .logo-img {
+        margin-top: 30%;
+    }
+    .heading {
+        width: 43%;
+    }
+    .heading h1 {
+        font-size: 80px;
+        line-height: 0.75;
+        margin-top: 27px;
+    }
+    .heading p {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .menu {
+        margin-top: 20%;
+    }
+    /********************* Slider area *****************/
+    .comonItem {
+        height: 1000px;
+    }
+    .slider-caption h2 {
+        font-size: 60px;
+        padding: 4px 170px 10px 0;
+        margin-right: 175px;
+    }
+    .slider-caption h3 {
+        font-size: 60px;
+        margin-right: 95px;
+        padding: 4px 120px 10px 0;
+    }
+    /********************* Gellery area *****************/
+    .gallery-hover h4 {
+        padding-left: 60px;
+    }
+    .single-gallery:hover .gallery-hover h4 {
+        bottom: 130px;
+    }
+    .gallery-hover ul {
+        left: 60px;
+    }
+    .single-gallery:hover .gallery-hover ul {
+        bottom: 60px;
+    }
+    /********************* Testimonial area *****************/
+    .testinonialTriangle {
+        width: 75%;
+    }
+    /********************* Footer area *****************/
+    .homMapTriangle {
+        width: 75.5%;
+    }
+    /********************* Footer area *****************/
+    .footertriangle {
+        width: 96.6%;
+    }
+    /****************** About Us Page *****************/
+    /*-----------------------------------------------
+    //Skill Area
+    ------------------------------------------------*/
+    .project-count-tringle {
+        left: -12%;
+        width: 61.3%;
+        -webkit-transform: skew(43deg, 0deg);
+        -moz-transform: skew(43deg, 0deg);
+        -ms-transform: skew(43deg, 0deg);
+        -o-transform: skew(43deg, 0deg);
+        transform: skew(43deg, 0deg);
+    }
+    /****************** Member Page *****************/
+    /*-----------------------------------------------
+    //Skill Area
+    ------------------------------------------------*/
+    .skill-rect2 {
+        left: -12%;
+        -webkit-transform: skew(44deg, 0deg);
+        -moz-transform: skew(44deg, 0deg);
+        -ms-transform: skew(44deg, 0deg);
+        -o-transform: skew(44deg, 0deg);
+        transform: skew(44deg, 0deg);
+        width: 62%;
+    }
+    /****************** Portfolio Page One *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    .inner-heading {
+        width: 25%;
+    }
+    .inner-heading h3 {
+        padding-left: 30px;
+    }
+    .inner-nav {
+        width: 70.7%;
+    }
+    /****************** Contact Page *****************/
+    /*-----------------------------------------------
+    //Contact Area
+    ------------------------------------------------*/
+    .redTriangle {
+        width: 81.3%;
+    }
+}
+@media screen and (min-width:1550px) and (max-width:1823px){
+    .header-area {
+        width: 49%;
+    }
+    .slider-caption {
+        width: 73%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    /********************* Header area *****************/
+    .header-area {
+        width: 79%;
+    }
+    .heading {
+        width: 50%;
+    }
+    .menu {
+        margin-top: 50px;
+    }
+    .menu > ul > li > a {
+        font-size: 20px;
+        width: 95px;
+    }
+    .menu ul li:hover .drop-menu.menuLeftAlign {
+        left: -260%;
+    }
+    /***************** Slider area ********************/
+    .slider-caption {
+        left: 14%;
+    }
+    .slider-caption h2 {
+        font-size: 40px;
+        height: 70px;
+        padding: 10px 85px 10px 0;
+        margin-right: 70px;
+    }
+    .slider-caption h3 {
+        font-size: 40px;
+        height: 70px;
+        padding: 10px 65px 10px 0;
+    }
+    /************** Feature area **************/
+    .commonPadding120 {
+        padding: 80px 0;
+    }
+    /************** Gallery area **************/
+    .single-gallery:hover .gallery-hover h4 {
+        bottom: 80px;
+    }
+    .gallery-hover h4 {
+        font-size: 20px;
+        line-height: 0.8;
+        padding-left: 15px;
+    }
+    .single-gallery:hover .gallery-hover ul {
+        bottom: 20px;
+    }
+    .gallery-hover ul {
+        left: 20px;
+    }
+    /************** About Company **************/
+    .about-company {
+        padding: 80px 0;
+    }
+    .twitter-div i,
+    .instagram-div i,
+    .facebook-div i {
+        font-size: 35px;
+        height: 70px;
+        padding-top: 19px;
+        width: 70px;
+    }
+    .instagramers,
+    .twitees,
+    .likes {
+        width: 60%;
+    }
+    /************ Skill Area **************/
+    .skill-area {
+        padding: 80px 0;
+    }
+    /************ Skill Area **************/
+    .testimonial-area {
+        padding: 80px 0;
+    }
+    /************ Skill Area **************/
+    .our-service {
+        padding: 80px 0 33px;
+    }
+    .service-list {
+        width: 66%;
+    }
+    .service-list h4 {
+        font-size: 25px;
+    }
+    /************ Latest Post Area **************/
+    .latest-post {
+        padding: 80px 0;
+    }
+    .post-content.pull-right {
+        margin-left: 0;
+        width: 100%;
+    }
+    .post-thumb.pull-left {
+        height: 269px;
+        width: 100%;
+    }
+    .padding-merge .no-padding{
+        padding: 0 15px 0 0;
+    }
+    .post-content ul li {
+        width: 33%;
+    }
+    /************ Map Area **************/
+    .map-area {
+        padding: 80px 0;
+    }
+    /************ Footer Area **************/
+    .footertriangle {
+        left: -13%;
+        width: 98%;
+    }
+    /****************** Home 2 Page *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    /****************** Feature Page *****************/
+    img.widthAuto {
+        width: 100%;
+    }
+    .features-area.home2 {
+        padding-bottom: 70px;
+        padding-top: 80px;
+    }
+    /****************** Our Service *****************/
+    .our-service.home2 {
+        padding: 80px 0;
+    }
+    /****************** Skill Area *****************/
+    .hom2-skill-area {
+        padding: 80px 0 50px;
+        background-position: center bottom;
+    }
+    .skill-rect {
+        left: -18%;
+        width: 68%;
+        -webkit-transform: skew(30deg, 0deg);
+        -moz-transform: skew(30deg, 0deg);
+        -ms-transform: skew(30deg, 0deg);
+        -o-transform: skew(30deg, 0deg);
+        transform: skew(30deg, 0deg);
+    }
+    /****************** Team Member Area *****************/
+    .team-members-area {
+        padding: 80px 0;
+    }
+    .single-member{
+        margin-bottom: 30px;
+    }
+    .single-member p {
+        width: 95%;
+    }
+    #carousel-about-generic {
+        padding-bottom: 30px;
+    }
+    /****************** Home 3 Page *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    /****************** Latest Project Area *****************/
+    .latest-project-slider {
+        padding: 80px 0 0;
+    }
+    .latest-project-content p {
+        width: 95%;
+    }
+    .custom-button.home3 {
+        width: 170px;
+    }
+    .latest-project-content {
+        padding: 50px 0 80px;
+    }
+    .project-counter {
+        padding: 75px 0 35px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .project-count.two {
+        margin-top: 30px;
+    }
+    .project-count h2{
+        color: #3dad66;
+    }
+    .project-count-tringle{
+        display: none;
+    }
+
+    /****************** About Company Area *****************/
+    .home3-about-company {
+        padding: 80px 0 70px;
+    }
+    /****************** Gellery Area *****************/
+    .gallery-area.home3 {
+        padding: 80px 0;
+    }
+    .single-gallery.home3 {
+        width: 45.3%;
+    }
+    .mixi-button li {
+        padding: 13px 22px;
+    }
+    /****************** Portfolio Page One *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    .inner-heading {
+        width: 35%;
+    }
+    .inner-heading h3 {
+        font-size: 30px;
+        padding-left: 15px;
+    }
+    .inner-nav ul li a {
+        margin-top: 20px;
+        width: 90px;
+    }
+    .inner-nav {
+        width: 50%;
+    }
+    /****************** Gellery Area *****************/
+    .custom-button.folio-btn {
+        margin-bottom: 80px;
+    }
+    /****************** Subscribe Area *****************/
+    .subsTriangle {
+        left: -10%;
+        width: 80%;
+    }
+    .subscribeForm {
+        margin: 0 auto;
+        width: 360px;
+    }
+    /****************** Portfolio Page Two *****************/
+    .folio2 .single-gallery {
+        width: 30.31%;
+    }
+    .folio2 .single-gallery:hover .gallery-hover h4 {
+        bottom: 65px;
+    }
+    .folio2 .single-gallery:hover .gallery-hover ul {
+        bottom: 10px;
+    }
+    /****************** Portfolio Page Three *****************/
+    /*-----------------------------------------------
+    //Gellery Area
+    ------------------------------------------------*/
+    .folio3-gallery .category {
+        min-height: inherit;
+    }
+    .folio3-gallery p {
+        min-height: 75px;
+    }
+    /****************** Member Page *****************/
+    /*-----------------------------------------------
+    //Member Area
+    ------------------------------------------------*/
+    .member-page-area {
+        padding: 80px 0;
+    }
+    /****************** Skill Area *****************/
+    .hom2-skill-area.member-page{
+    }
+    /****************** Event Page *****************/
+    /*-----------------------------------------------
+    //Widget Area
+    ------------------------------------------------*/
+    .widget-form input {
+        width: 200px;
+    }
+    .loadMoreArea {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    /****************** Contact Page *****************/
+    /*-----------------------------------------------
+    //Contact Area
+    ------------------------------------------------*/
+    .redTriangle {
+        left: -32%;
+        width: 90%;
+    }
+    .contactMapSection {
+        height: inherit;
+        padding: 80px 0;
+    }
+    .contactForm {
+        padding: 80px 0;
+    }
+    /****************** 404 Page *****************/
+    /*-----------------------------------------------
+    ///404 Area
+    ------------------------------------------------*/
+    .error-404 {
+        padding: 20px 0 80px;
+    }
+    /****************** Blog Grid Page *****************/
+    /*-----------------------------------------------
+    ///Article Area
+    ------------------------------------------------*/
+    .grid-ariticle {
+        padding: 35px 15px 20px;
+    }
+    .month_like {
+        padding: 0 40px;
+    }
+    .custom-button.grid_btn {
+        margin-bottom: 0;
+    }
+    /****************** Blog Single Page *****************/
+    /*-----------------------------------------------
+    ///Post Area
+    ------------------------------------------------*/
+    .small-right-content {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .author-history {
+        margin-top: 0;
+    }
+    .athor-img {
+        float: none;
+        margin: 0 auto;
+    }
+    .author-bio {
+        float: none;
+        margin: 30px auto 0;
+        text-align: center;
+        width: 100%;
+    }
+    .comment-details {
+        width: 80%;
+    }
+    .reply-two2 .user-img {
+        margin-left: 100px;
+    }
+    .reply-two .user-img {
+        margin-left: 40px;
+    }
+    .reply-two .comment-details {
+        width: 80%;
+    }
+    .reply-two2 .comment-details {
+        width: 70%;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    /****************** Header Area *****************/
+    .header-area {
+        height: 510px;
+        padding-left: 0;
+        width: 100%;
+    }
+    .menuButtonArea {
+        margin-top: 61px;
+    }
+    .inerPageheader .menuButtonArea {
+        margin-top: 0;
+    }
+    .headerTriangle {
+        left: -65%;
+    }
+    .heading h1 {
+        font-size: 50px;
+        line-height: 38px;
+    }
+    .heading {
+        margin-bottom: 30px;
+        margin-left: 15px;
+        width: 45%;
+    }
+    .heading p {
+        margin-top: 18px;
+    }
+    .logo-img {
+        margin-left: 15px;
+        margin-top: 130px;
+    }
+    .menu {
+        margin-top: 0;
+        display: none;
+    }
+    .menu ul {
+        background: none repeat scroll 0 0 #4c4c4c;
+        text-align: center;
+    }
+    .menu ul > li {
+        padding-bottom: 0;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .menu ul li a {
+        border-top: 1px solid #7f7f7f;
+        color: #fff;
+        display: block;
+        padding: 14px 0;
+        text-align: center;
+        width: 100%;
+    }
+    .drop-menu{
+        display: none;
+    }
+    nav .drop-menu {
+        left: 0 !important;
+        opacity: 1;
+        position: relative;
+        top: 100%;
+        visibility: visible;
+        width: 100%;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    nav .drop-menu li a{
+        border: medium none;
+        font-size: 12px;
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+    .menu ul li:hover .drop-menu {
+        left: 0;
+    }
+    /****************** Slider Area *****************/
+    .slider-area {
+        height: 510px;
+    }
+    .slider-caption h2 {
+        font-size: 25px;
+        height: 45px;
+        margin-right: 45px;
+        padding: 8px 90px 10px 0;
+    }
+    .slider-caption h3 {
+        font-size: 25px;
+        height: 45px;
+        padding: 7px 80px 10px 0;
+    }
+    .slider-caption {
+        bottom: 14%;
+        left: 47%;
+        position: absolute;
+        text-align: right;
+        width: 400px;
+    }
+    .comonItem {
+        height: 512px;
+    }
+    /****************** Feature Section *****************/
+    .commonPadding120 {
+        padding: 80px 0;
+    }
+    .features-area.commonPadding120{
+        padding-bottom: 50px;
+    }
+    .single-feature {
+        margin-bottom: 30px;
+        min-height: 320px;
+    }
+    .single-feature p {
+        padding: 15px 10px;
+    }
+    /**************** Gallery area *****************/
+    .single-gallery{
+        width: 50%;
+    }
+    .gallery-hover h4 {
+        font-size: 25px;
+        line-height: 0.83;
+        padding-left: 14px;
+    }
+    .gallery-hover ul {
+        left: 15px;
+    }
+    /****************** About Area *****************/
+    .about-company {
+        padding: 80px 0;
+    }
+    .common-title {
+        font-size: 45px;
+        text-align: center;
+        line-height: .79;
+    }
+    .counting {
+        text-align: center;
+    }
+    .company-description {
+        padding: 0 15px;
+        text-align: center;
+    }
+    .about-company h4 {
+        font-size: 25px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .company-description h6:before {
+        display: none;
+    }
+    .company-description h6:after {
+        display: none;
+    }
+    .facebook-div,.twitter-div,.instagram-div {
+        margin: 0 auto 20px;
+    }
+    .twitter-div i,
+    .instagram-div i,
+    .facebook-div i {
+        font-size: 30px;
+        height: 48px;
+        padding-top: 11px;
+        width: 48px;
+    }
+    .instagramers,
+    .twitees,
+    .likes {
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+    .twitees h3,
+    .instagramers h3,
+    .likes h3 {
+        font-size: 25px;
+    }
+    .counting h2 {
+        font-size: 30px;
+    }
+    /****************** Skill area *********************/
+    .skill-area {
+        padding: 80px 0 50px;
+    }
+    .pie-wp{
+        margin-bottom: 30px;
+    }
+    .chart canvas {
+        height: 205px;
+        width: 205px;
+    }
+    .percent {
+        font-size: 50px;
+        line-height: 50px;
+        padding-top: 88px;
+    }
+    .chart {
+        height: 225px;
+        width: 225px;
+    }
+    /***************** Testimonial Area ******************/
+    .testimonial-area {
+        padding: 80px 0;
+    }
+    .testinonialTriangle {
+        left: -32%;
+        width: 100%;
+    }
+    .testimonial-content h4 {
+        font-size: 25px;
+    }
+    .testimonial-content h2 {
+        font-size: 45px;
+    }
+    .testimonial-content p {
+        font-size: 20px;
+        margin-bottom: 0;
+        margin-top: 25px;
+        padding-left: 35px;
+        width: 65%;
+    }
+    /****************** Our Service Area *****************/
+    .our-service {
+        padding: 80px 0 0;
+    }
+    .common-subtitle {
+        margin: 0 auto 42px;
+        width: 100%;
+    }
+    .service-content:first-of-type {
+        padding-top: 90px;
+    }
+    .service-list {
+        float: right;
+        margin-top: 0;
+        text-align: left;
+        width: 72%;
+        margin-left: 10px;
+    }
+    .service-list p {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .service-content i {
+        float: left;
+        font-size: 30px;
+        height: 50px;
+        line-height: 1;
+        padding-top: 10px;
+        width: 50px;
+    }
+    .service-content {
+        margin: 0 auto 28px;
+        width: 100%;
+    }
+    .service-list h4 {
+        font-size: 18px;
+    }
+    .mobile-img {
+        margin: 15px auto 0;
+    }
+    /************** Latest Post *****************/
+    .post-content ul li {
+        width: 33.24%;
+    }
+    .latest-post {
+        padding: 80px 0;
+    }
+    .post-content{
+        margin-bottom: 30px;
+    }
+    .post-content.pull-right {
+        width: 100%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .padding-merge .no-padding{
+        padding: 0 15px;
+    }
+    .post-thumb.pull-left {
+        width: 100%;
+    }
+    /***************** Map Section ****************/
+    .map-area {
+        padding: 80px 0;
+    }
+    .homMapTriangle{
+        left: -44%;
+        width: 100%;
+    }
+    .contact-address .common-title{
+        text-align: left;
+    }
+    .contact-social li a {
+        height: 60px;
+        margin-right: 10px;
+        padding-top: 5px;
+        width: 60px;
+    }
+    /****************** Blog Post *****************/
+    .blog-section{
+        padding: 80px 0 80px;
+    }
+    /************** Footer Section *****************/
+    .footertriangle {
+        left: -20%;
+    }
+    /****************** Home 2 Page *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    /****************** Feature Page *****************/
+    img.widthAuto {
+        width: 100%;
+    }
+    .features-area.home2 {
+        padding-bottom: 70px;
+        padding-top: 80px;
+    }
+    .features-area.home2 h3 {
+        margin-top: 30px;
+    }
+    /****************** Our Service *****************/
+    .our-service.home2 {
+        padding: 80px 0;
+    }
+    .our-service.home2 .service-list {
+        float: left;
+        margin-left: 15px;
+        margin-top: 0;
+    }
+    .our-service.home2 i {
+        font-size: 30px;
+        height: 45px;
+        line-height: 1.4;
+        width: 45px;
+    }
+    /****************** Skill Area *****************/
+    .hom2-skill-area {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+        height: auto;
+        padding: 80px 0 50px;
+    }
+    .skill-rect {
+        display: none;
+    }
+    .chart2,.chart3{
+        margin-bottom: 30px;
+    }
+    .chart2 h4, .chart3 h4, .chart4 h4 {
+        color: #16a4d6;
+    }
+    /****************** Team Member Area *****************/
+    .team-members-area {
+        padding: 80px 0;
+    }
+    .single-member{
+        margin-bottom: 30px;
+    }
+    .single-member p {
+        width: 95%;
+    }
+    #carousel-about-generic {
+        padding-bottom: 30px;
+    }
+    /****************** Gallery Area *****************/
+    .gallery-hover.home2 h4{
+        line-height: .8;
+    }
+    /****************** Home 3 Page *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    /****************** Latest Project Area *****************/
+    .latest-project-slider {
+        padding: 80px 0 0;
+    }
+    .latest-project-content p {
+        width: 95%;
+    }
+    .custom-button.home3 {
+        width: 170px;
+    }
+    .latest-project-content {
+        padding: 50px 0 80px;
+    }
+    .project-counter {
+        padding: 75px 0 35px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .project-count.two {
+        margin-top: 30px;
+    }
+    .project-count h2{
+        color: #3dad66;
+    }
+    .project-count-tringle{
+        display: none;
+    }
+
+    /****************** About Company Area *****************/
+    .home3-about-company {
+        padding: 80px 0 70px;
+    }
+    /****************** Gellery Area *****************/
+    .gallery-area.home3 {
+        padding: 80px 0;
+    }
+    .single-gallery.home3 {
+        width: 50%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .mixi-button li {
+        padding: 13px 22px;
+    }
+    /****************** Portfolio Page One *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    .inner-heading {
+        display: none;
+    }
+    .inner-nav{
+        display: none;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .inner-nav ul{
+        background: #444;
+        text-align: center;
+    }
+    .inner-nav ul li {
+        display: inline-block;
+        padding: 0px 35px;
+    }
+    .inner-nav ul li a {
+        color: #fff;
+        display: block;
+        margin: 0;
+        padding: 20px 0;
+        text-align: center;
+        width: 100%;
+    }
+    .inner-nav ul li ul.drop-menu{
+        display: block;
+        z-index: 9999;
+    }
+    .inner-nav ul li:hover ul.drop-menu{
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+    }
+    .inner-nav ul li ul.drop-menu li{
+        padding: 0px;
+    }
+    /****************** Gellery Area *****************/
+    .custom-button.folio-btn {
+        margin-bottom: 80px;
+    }
+    /****************** Subscribe Area *****************/
+    .subsTriangle {
+        left: -14%;
+        width: 90%;
+    }
+    .subscribeForm {
+        margin: 0 auto;
+        width: 360px;
+    }
+    /****************** Portfolio Page Two *****************/
+    .folio2 .single-gallery {
+        width: 46%;
+    }
+    .folio2 .single-gallery:hover .gallery-hover h4 {
+        bottom: 70px;
+    }
+    .folio2 .single-gallery:hover .gallery-hover ul {
+        bottom: 15px;
+    }
+    /****************** Portfolio Page Four *****************/
+    /*-----------------------------------------------
+    //Post Area
+    ------------------------------------------------*/
+    .folio4-post-slider {
+        padding: 80px 0;
+    }
+    /****************** Member Page *****************/
+    /*-----------------------------------------------
+    ///Member Area
+    ------------------------------------------------*/
+    .member-page-area {
+        padding: 80px 0;
+    }
+    .no-padding-left{
+        padding-left: 15px;
+    }
+    .no-padding-right{
+        padding-right: 15px;
+    }
+    .member-histo {
+        padding: 35px 0 0 0;
+    }
+    .member-meta{
+        text-align: left;
+    }
+    /****************** Skill Area *****************/
+    .member-page h4{
+        color: #de3c2f;
+    }
+    .member-page .chart4{
+        margin-top: 30px;
+    }
+    .skill-rect2{
+        display: none;
+    }
+    /****************** Events Page *****************/
+    /*-----------------------------------------------
+    ///Widget Area
+    ------------------------------------------------*/
+    .widget-form{
+        margin: 0 0 50px;
+        width: 243px;
+    }
+    .sidebar {
+        padding: 0 0 0 15px;
+    }
+    .sidebar-area.no-padding,
+    .sidebar-area .no-padding,
+    .widget .no-padding{
+        padding: 0 15px;
+    }
+    /****************** Single Event *****************/
+    .singleEvents {
+        padding-left: 0;
+    }
+    .eventThumb {
+        left: auto;
+        margin: 0 auto;
+        position: relative;
+    }
+    .eventDet {
+        padding-right: 0;
+        text-align: center;
+    }
+    .eventDet h4 {
+        font-size: 20px;
+    }
+    .evMeta {
+        text-align: left;
+    }
+    .loadMoreArea {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .side-post .no-padding-left{
+        padding-left: 0;
+    }
+    .side-post .no-padding-right{
+        padding-right: 0;
+    }
+    .side-post .no-padding{
+        padding: 0;
+    }
+    /****************** Single Event Page *****************/
+    /*-----------------------------------------------
+    ///Events Details Area
+    ------------------------------------------------*/
+    .eDDetails h1 {
+        font-size: 60px;
+    }
+    .eDDetails {
+        padding: 20px 25px 15px;
+    }
+    .eventMeta p {
+        margin: 8px 10px 10px 0;
+    }
+    /****************** Contact Page *****************/
+    /*-----------------------------------------------
+    ///Contact Area
+    ------------------------------------------------*/
+    .contactMapSection {
+        height: inherit;
+        padding: 80px 0;
+    }
+    .blackash {
+        color: #fff;
+    }
+    .contactSocial {
+        margin-top: 25px;
+    }
+    .contactSocialUL {
+        float: none;
+    }
+    .contactSocialUL li a {
+        font-size: 30px;
+        height: 60px;
+        margin-right: 10px;
+        padding-top: 9px;
+        width: 60px;
+    }
+    .redTriangle {
+        display: none;
+    }
+    .contactForm {
+        padding: 80px 0;
+    }
+    /****************** 404 Page *****************/
+    /*-----------------------------------------------
+    ///404 Area
+    ------------------------------------------------*/
+    .error-404 {
+        padding: 55px 0 80px;
+    }
+    .error-404 h1 {
+        font-size: 300px;
+        line-height: 0.78;
+    }
+    .error-404 p {
+        padding: 25px 20px 0;
+        width: 90%;
+    }
+    /****************** Blog Sidebar Page *****************/
+    .default-pagination li a {
+        padding: 12px 22px;
+    }
+    /****************** Blog Grid Page *****************/
+    /*-----------------------------------------------
+    ///Article Area
+    ------------------------------------------------*/
+    .grid-ariticle {
+        padding: 35px 15px 20px;
+    }
+    .month_like {
+        padding: 0 20px;
+    }
+    .custom-button.grid_btn {
+        margin-bottom: 0;
+    }
+    .blog-post-content h2 {
+        font-size: 45px;
+    }
+    /****************** Blog Single Page *****************/
+    /*-----------------------------------------------
+    ///Post Area
+    ------------------------------------------------*/
+    .post-thumb2 {
+        width: 100%;
+    }
+    .small-right-content.pull-left {
+        padding-left: 0;
+        width: 100%;
+    }
+    .author-history {
+        margin-top: 0;
+    }
+    .athor-img {
+        float: none;
+        margin: 0 auto;
+    }
+    .author-bio {
+        float: none;
+        margin: 30px auto 0;
+        text-align: center;
+        width: 100%;
+    }
+    .comment-details {
+        width: 80%;
+    }
+    .reply-two2 .user-img {
+        margin-left: 0;
+    }
+    .reply-two .user-img {
+        margin-left: 0;
+    }
+    .reply-two .comment-details {
+        width: 80%;
+    }
+    .reply-two2 .comment-details {
+        width: 80%;
+    }
+    .comment-form input[type="text"] {
+        width: 100%;
+    }
+    .sidebar .widget-form input {
+        width: 190px;
+    }
+    .calendarWidget {
+        padding: 37px 15px 0;
+    }
+    .small-right-content {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+}
+@media screen and (min-width: 640px) and (max-width: 767px){
+    /****************** Header Area *****************/
+    .header-area {
+        height: 470px;
+        padding-left: 0;
+        width: 100%;
+    }
+    .headerTriangle {
+        height: 470px;
+    }
+    .heading h1 {
+        font-size: 45px;
+        line-height: 35px;
+    }
+    .heading {
+        margin-bottom: 30px;
+        margin-left: 22px;
+        width: 45%;
+    }
+    .heading p {
+        margin-top: 18px;
+    }
+    .logo-img {
+        margin-left: 15px;
+        margin-top: 95px;
+    }
+    .menu {
+        margin-top: 0;
+        display: none;
+    }
+    .menu ul {
+        background: none repeat scroll 0 0 #4c4c4c;
+        text-align: center;
+    }
+    .menu ul > li {
+        padding-bottom: 0;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .menu ul li a {
+        border-top: 1px solid #7f7f7f;
+        color: #fff;
+        display: block;
+        padding: 14px 0;
+        text-align: center;
+        width: 100%;
+    }
+    .drop-menu{
+        display: none;
+        border-top: 5px solid #7f7f7f;
+    }
+    nav .drop-menu {
+        left: 0 !important;
+        opacity: 1;
+        position: relative;
+        top: 100%;
+        visibility: visible;
+        width: 100%;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    nav .drop-menu li a{
+        border: medium none;
+        font-size: 12px;
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+    .menu ul li:hover .drop-menu {
+        left: 0;
+    }
+    .menuButtonArea {
+        bottom: 0;
+        position: absolute;
+    }
+    /*********** Inner Page Menu *********/
+    .inerPageheader .menuButtonArea {
+        margin: 0 auto;
+        position: relative;
+        width: 65%;
+        display: block;
+    }
+    .inner-nav{
+        display: none;
+        width: 100%;
+    }
+    .inner-nav ul{
+        background: none repeat scroll 0 0 #4c4c4c;
+        text-align: center;
+    }
+    .inner-nav ul li {
+        display: block;
+    }
+    .inner-nav ul li a {
+        display: block;
+        margin: 0;
+        width: 100%;
+        border-top: 1px solid #7f7f7f;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        width: 100%;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    .inner-nav ul li ul.drop-menu{
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .inner-nav ul li ul.drop-menu li a {
+        text-align: center;
+        border: none;
+        font-size: 12px;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        padding: 15px 0;
+        font-weight: 300;
+    }
+    .presetArea{
+        display: none;
+    }
+    /****************** Slider Area *****************/
+    .slider-area {
+        height: 470px;
+    }
+    .slider-caption{
+        display: none;
+    }
+    .comonItem {
+        height: 470px;
+    }
+    /****************** Feature Section *****************/
+    .commonPadding120 {
+        padding: 80px 0;
+    }
+    .features-area.commonPadding120{
+        padding-bottom: 50px;
+    }
+    .single-feature {
+        margin-bottom: 30px;
+        min-height: 320px;
+    }
+    /**************** Gallery area *****************/
+    .single-gallery{
+        width: 50%;
+    }
+    .single-gallery:hover .gallery-hover h4 {
+        bottom: 75px;
+    }
+    .gallery-hover h4 {
+        font-size: 20px;
+        line-height: 0.83;
+        padding-left: 14px;
+    }
+    .single-gallery:hover .gallery-hover ul {
+        bottom: 18px;
+    }
+    .gallery-hover ul {
+        left: 15px;
+    }
+    /****************** About Area *****************/
+    .about-company {
+        padding: 80px 0;
+    }
+    .common-title {
+        font-size: 45px;
+        text-align: center;
+    }
+    .counting {
+        text-align: center;
+    }
+    .company-description {
+        padding: 0 15px;
+        text-align: center;
+    }
+    .about-company h4 {
+        margin-top: 30px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .company-description h6:before {
+        display: none;
+    }
+    .company-description h6:after {
+        display: none;
+    }
+    .facebook-div,.twitter-div,.instagram-div {
+        margin: 0 auto 20px;
+        width: 45%;
+    }
+    /****************** Skill area *********************/
+    .skill-area {
+        padding: 80px 0 50px;
+    }
+    .pie-wp{
+        margin-bottom: 30px;
+    }
+    /***************** Testimonial Area ******************/
+    .testimonial-area {
+        padding: 80px 0;
+    }
+    .testinonialTriangle {
+        left: -32%;
+        width: 100%;
+    }
+    .testimonial-content h4 {
+        font-size: 25px;
+    }
+    .testimonial-content h2 {
+        font-size: 45px;
+    }
+    .testimonial-content p {
+        font-size: 20px;
+        margin-bottom: 0;
+        margin-top: 25px;
+        padding-left: 35px;
+        width: 65%;
+    }
+    /****************** Our Service Area *****************/
+    .our-service {
+        padding: 80px 0 0;
+    }
+    .common-subtitle {
+        margin: 0 auto 42px;
+        width: 100%;
+    }
+    .service-content:first-of-type {
+        padding-top: 0;
+    }
+    .service-list {
+        float: right;
+        margin-top: 5px;
+        text-align: left;
+        width: 65%;
+    }
+    .service-list p {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .service-content i {
+        float: left;
+    }
+    .service-content {
+        margin: 0 auto 28px;
+        width: 50%;
+    }
+    .service-list h4 {
+        font-size: 22px;
+    }
+    .mobile-img {
+        margin: 15px auto 0;
+        width: 50%;
+    }
+    /************** Latest Post *****************/
+    .latest-post {
+        padding: 80px 0;
+    }
+    .post-content.home2{
+        margin-bottom: 30px;
+    }
+    .post-content.pull-right {
+        float: left !important;
+        margin-left: 30px;
+        width: 48.3%;
+    }
+    .post-content {
+        margin-bottom: 30px;
+    }
+    /***************** Map Section ****************/
+    .map-area {
+        padding: 80px 0;
+    }
+    .homMapTriangle{
+        left: -44%;
+        width: 100%;
+    }
+    .contact-social.pull-right {
+        float: none !important;
+        text-align: center;
+        margin-top: 60px;
+    }
+    /****************** Blog Post *****************/
+    .blog-section{
+        padding: 80px 0 50px;
+    }
+    .blog-content {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    /************** Footer Section *****************/
+    .footertriangle {
+        left: -20%;
+    }
+    /****************** Home 2 Page *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    /****************** Feature Page *****************/
+    img.widthAuto {
+        width: 100%;
+    }
+    .features-area.home2 {
+        padding-bottom: 70px;
+        padding-top: 80px;
+    }
+    .features-area.home2 h3 {
+        margin-top: 30px;
+    }
+    /****************** Our Service *****************/
+    .our-service.home2 {
+        padding: 80px 0;
+    }
+    .our-service.home2 .service-list {
+        float: left;
+        margin-left: 20px;
+    }
+    .our-service.home2 i {
+        margin-bottom: 30px;
+    }
+    /****************** Skill Area *****************/
+    .hom2-skill-area .col-xs-12{
+        width: 50%;
+    }
+    .hom2-skill-area {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+        height: auto;
+        padding: 80px 0 50px;
+    }
+    .skill-rect {
+        display: none;
+    }
+    .chart2,.chart3{
+        margin-bottom: 30px;
+    }
+    .chart2 h4, .chart3 h4, .chart4 h4 {
+        color: #16a4d6;
+    }
+    /****************** Team Member Area *****************/
+    .team-members-area {
+        padding: 80px 0;
+    }
+    .single-member{
+        margin-bottom: 30px;
+    }
+    #carousel-about-generic {
+        padding-bottom: 30px;
+    }
+    /****************** Gallery Area *****************/
+    .gallery-hover.home2 h4{
+        line-height: .8;
+    }
+    /****************** Home 3 Page *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    /****************** Latest Project Area *****************/
+    .latest-project-slider {
+        padding: 80px 0 0;
+    }
+    .latest-project-content p {
+        width: 95%;
+    }
+    .custom-button.home3 {
+        width: 170px;
+    }
+    .latest-project-content {
+        padding: 50px 0 80px;
+    }
+    .project-counter {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+        padding: 75px 0 35px;
+    }
+    .project-count-tringle{
+        display: none;
+    }
+    .project-count {
+        margin-bottom: 40px;
+    }
+    .project-counter .col-xs-12{
+        width: 50%;
+    }
+    .project-count h2 {
+        color: #3dad66;
+        line-height: 1;
+    }
+    .project-count i {
+        padding-bottom: 0;
+    }
+    /****************** About Company Area *****************/
+    .home3-about-company {
+        padding: 80px 0 70px;
+    }
+    .panel-group.my-accordion {
+        margin-top: 30px;
+    }
+    /****************** Gellery Area *****************/
+    .gallery-area.home3 {
+        padding: 80px 0;
+    }
+    .mixi-button {
+        padding-bottom: 30px;
+    }
+    .mixi-button li {
+        margin-bottom: 10px;
+    }
+    .single-gallery.home3 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .home3 .gallery-hover {
+        width: 66%;
+        background-size: cover;
+        background-position: center center;
+    }
+    .single-gallery.home3:hover .gallery-hover h4 {
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    .single-gallery.home3:hover .gallery-hover h4 {
+        bottom: 115px;
+    }
+    .single-gallery.home3 .gallery-hover ul {
+        left: 30px;
+    }
+    .single-gallery.home3:hover .gallery-hover ul {
+        bottom: 40px;
+    }
+    .default-pagination {
+        padding-top: 0;
+    }
+    /****************** Portfolio Page One *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    .inner-heading {
+        display: none;
+    }
+    /****************** Gellery Area *****************/
+    .custom-button.folio-btn {
+        margin-bottom: 80px;
+        margin-top: 50px;
+    }
+    /****************** Subscribe Area *****************/
+    .subscribe {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    }
+    .subsTriangle {
+        display: none;
+    }
+    .subscribeForm {
+        margin: 0 auto;
+        width: 360px;
+    }
+    /****************** Portfolio Page Two *****************/
+    .folio2 .single-gallery {
+        width: 45.3%;
+    }
+    .folio2 .single-gallery:hover .gallery-hover h4 {
+        bottom: 60px;
+    }
+    .folio2 .single-gallery:hover .gallery-hover ul {
+        bottom: 5px;
+    }
+    /****************** Portfolio Page Four *****************/
+    /*-----------------------------------------------
+    //Post Area
+    ------------------------------------------------*/
+    .folio4-post-slider {
+        padding: 80px 0;
+    }
+    /****************** Member Page *****************/
+    /*-----------------------------------------------
+    ///Member Area
+    ------------------------------------------------*/
+    .member-page-area {
+        padding: 80px 0;
+    }
+    .no-padding-left{
+        padding-left: 15px;
+    }
+    .no-padding-right{
+        padding-right: 15px;
+    }
+    .member-histo {
+        padding: 35px 0 0 0;
+        text-align: center;
+    }
+    .member-meta{
+        text-align: left;
+    }
+    .member-histo .comonSocial {
+        float: none;
+    }
+    /****************** Skill Area *****************/
+    .member-page h4{
+        color: #de3c2f;
+    }
+    .member-page .chart4{
+        margin-top: 30px;
+    }
+    .skill-rect2{
+        display: none;
+    }
+    /****************** Events Page *****************/
+    /*-----------------------------------------------
+    ///Widget Area
+    ------------------------------------------------*/
+    .widget-form{
+        margin: 0 auto 50px;
+        width: 292px;
+    }
+    .no-padding{
+        padding: 0 15px;
+    }
+    /****************** Single Event *****************/
+    .singleEvents {
+        padding-left: 0;
+    }
+    .eventThumb {
+        left: auto;
+        margin: 0 auto;
+        position: relative;
+    }
+    .eventDet {
+        padding-right: 0;
+        text-align: center;
+    }
+    .eventDet h4 {
+        font-size: 20px;
+    }
+    .evMeta {
+        text-align: left;
+    }
+    .loadMoreArea {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .side-post .no-padding-left{
+        padding-left: 0;
+    }
+    .side-post .no-padding-right{
+        padding-right: 0;
+    }
+    .side-post .no-padding{
+        padding: 0;
+    }
+    /****************** Single Event Page *****************/
+    /*-----------------------------------------------
+    ///Events Details Area
+    ------------------------------------------------*/
+    .eDDetails h1 {
+        font-size: 60px;
+    }
+    /****************** Contact Page *****************/
+    /*-----------------------------------------------
+    ///Contact Area
+    ------------------------------------------------*/
+    .contactMapSection {
+        height: inherit;
+        padding: 80px 0;
+    }
+    .blackash {
+        color: #fff;
+    }
+    .contactSocial {
+        margin-top: 25px;
+    }
+    .contactSocialUL {
+        float: none;
+    }
+    .redTriangle {
+        display: none;
+    }
+    .contactForm {
+        padding: 80px 0;
+    }
+    .inputP {
+        width: 100%;
+    }
+    /****************** 404 Page *****************/
+    /*-----------------------------------------------
+    ///404 Area
+    ------------------------------------------------*/
+    .error-404 {
+        padding: 80px 0;
+    }
+    .error-404 h1 {
+        font-size: 200px;
+    }
+    .error-404 p {
+        padding: 25px 20px 0;
+        width: 84%;
+    }
+    /****************** Blog Grid Page *****************/
+    /*-----------------------------------------------
+    ///Grid article Area
+    ------------------------------------------------*/
+    .grid-ariticle {
+        padding: 35px 15px 20px;
+    }
+    .custom-button.grid_btn {
+        margin-bottom: 0;
+    }
+    /****************** Blog Single Page *****************/
+    /*-----------------------------------------------
+    ///Post Area
+    ------------------------------------------------*/
+    .post-thumb2 {
+        width: 100%;
+    }
+    .small-right-content.pull-left {
+        padding-left: 0;
+        width: 100%;
+    }
+    .author-history {
+        margin-top: 0;
+    }
+    .athor-img {
+        float: none;
+        margin: 0 auto;
+    }
+    .author-bio {
+        float: none;
+        margin: 30px auto 0;
+        text-align: center;
+        width: 100%;
+    }
+    .comment-details {
+        width: 80%;
+    }
+    .reply-two2 .user-img {
+        margin-left: 0;
+    }
+    .reply-two .user-img {
+        margin-left: 0;
+    }
+    .reply-two .comment-details {
+        width: 80%;
+    }
+    .reply-two2 .comment-details {
+        width: 80%;
+    }
+    .comment-form input[type="text"] {
+        width: 100%;
+    }
+    .sidebar .widget-form{
+        margin: 0 0 50px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 639px){
+    /****************** Header Area *****************/
+    .header-area {
+        height: 360px;
+        width: 100%;
+        padding-left: 0;
+    }
+    .heading {
+        margin-bottom: 30px;
+        width: 65%;
+        padding-left: 15px;
+    }
+    .heading p{
+        display: none;
+    }
+    .heading h1 {
+        font-size: 40px;
+        line-height: 31px;
+        margin-top: 18px;
+    }
+    .logo-img {
+        margin-left: 15px;
+        margin-top: 114px;
+    }
+    .menu {
+        margin-top: 0;
+        display: none;
+    }
+    .menu ul {
+        background: none repeat scroll 0 0 #4c4c4c;
+        text-align: center;
+    }
+    .menu ul > li {
+        padding-bottom: 0;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .menu ul li a {
+        border-top: 1px solid #7f7f7f;
+        color: #fff;
+        display: block;
+        padding: 14px 0;
+        text-align: center;
+        width: 100%;
+    }
+    .drop-menu{
+        display: none;
+        border-top: 5px solid #7f7f7f;
+    }
+    nav .drop-menu {
+        left: 0 !important;
+        opacity: 1;
+        position: relative;
+        top: 100%;
+        visibility: visible;
+        width: 100%;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    nav .drop-menu li a{
+        border: medium none;
+        font-size: 12px;
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+    .menu ul li:hover .drop-menu {
+        left: 0;
+    }
+    #mainCarousle .carousel-indicators{
+        display: none;
+    }
+    /*********** Inner Page Menu *********/
+    .inerPageheader .menuButtonArea {
+        display: block;
+        margin: 0 auto;
+        width: 65%;
+    }
+    .inner-nav{
+        display: none;
+        width: 100%;
+    }
+    .inner-nav ul{
+        background: none repeat scroll 0 0 #4c4c4c;
+        text-align: center;
+    }
+    .inner-nav ul li {
+        display: block;
+    }
+    .inner-nav ul li a {
+        display: block;
+        margin: 0;
+        width: 100%;
+        border-top: 1px solid #7f7f7f;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        width: 100%;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    .inner-nav ul li ul.drop-menu{
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .inner-nav ul li ul.drop-menu li a {
+        text-align: center;
+        border: none;
+        font-size: 12px;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        padding: 15px 0;
+        font-weight: 300;
+    }
+    .presetArea{
+        display: none;
+    }
+    /****************** Slider Area *****************/
+    .slider-area {
+        height: 360px;
+    }
+    .comonItem{
+        height: 358px;
+    }
+    .slider-caption{
+        display: none;
+    }
+    /****************** Feature Area *****************/
+    .features-area{
+        padding: 80px 0 50px;
+    }
+    .single-feature {
+        margin-bottom: 30px;
+        min-height: 320px;
+    }
+    .single-gallery{
+        width: 100%;
+    }
+    .single-gallery:hover .gallery-hover h4 {
+        bottom: 90px;
+    }
+    .single-gallery:hover .gallery-hover ul {
+        bottom: 25px;
+    }
+    /****************** About Area *****************/
+    .about-company {
+        padding: 80px 0;
+    }
+    .common-title {
+        font-size: 45px;
+        text-align: center;
+    }
+    .counting {
+        text-align: center;
+    }
+    .company-description {
+        padding: 0 15px;
+        text-align: center;
+    }
+    .about-company h4 {
+        margin-top: 30px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .company-description h6:before {
+        display: none;
+    }
+    .company-description h6:after {
+        display: none;
+    }
+    .facebook-div,.twitter-div,.instagram-div {
+        margin: 0 auto 20px;
+        width: 60%;
+    }
+    /****************** Skill Area *****************/
+    .skill-area {
+        padding: 70px 0 40px;
+    }
+    .pie-wp h4 {
+        padding-bottom: 40px;
+    }
+    /****************** Testimonial Area *****************/
+    .testinonialTriangle {
+        display: none;
+    }
+    .testimonial-area {
+        padding: 80px 0 125px;
+    }
+    .testimonial-content {
+        text-align: center;
+    }
+    .testimonial-content h2 {
+        color: #de3c2f;
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .testimonial-content p {
+        font-size: 20px;
+        margin-top: 45px;
+        padding-left: 0;
+        width: 100%;
+    }
+    .testimonial-content p:before {
+        left: -25px;
+        top: 5px;
+    }
+    #testimonialCarousel .carousel-indicators {
+        bottom: -48px;
+        left: 0;
+        margin: 0;
+        right: 0;
+        width: 100%;
+    }
+    #testimonialCarousel .carousel-indicators li {
+        margin: 0 8px;
+    }
+    #testimonialCarousel .carousel-indicators li.active {
+        width: 12px;
+        height: 12px;
+    }
+    /****************** Our Service Area *****************/
+    .our-service {
+        padding: 80px 0 50px;
+    }
+    .common-subtitle {
+        margin: 0 auto 42px;
+        width: 100%;
+    }
+    .service-content:first-of-type {
+        padding-top: 0;
+    }
+    .service-list {
+        float: right;
+        margin-top: 5px;
+        text-align: left;
+        width: 65%;
+    }
+    .service-list p {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .service-content i {
+        float: left;
+    }
+    .service-content {
+        margin: 0 auto 28px;
+        width: 63%;
+    }
+    .service-list h4 {
+        font-size: 22px;
+    }
+    .mobile-img {
+        margin: 15px auto 45px;
+        width: 100%;
+    }
+    /****************** Latest Post Area *****************/
+    .latest-post {
+        padding: 80px 0;
+    }
+    .post-content ul li {
+        width: 33%;
+    }
+    .post-content {
+        margin-bottom: 30px;
+    }
+    .post-thumb.pull-left {
+        width: 100%;
+    }
+    .post-content.pull-right {
+        width: 100%;
+    }
+    /****************** Contact Area *****************/
+    .map-area {
+        padding: 80px 0;
+    }
+    .contact-address p,
+    .contact-address p a {
+        color: #4c4c4c;
+        font-size: 22px;
+    }
+    .contact-address p i {
+        color: #de3c2f;
+    }
+    .contact-social li.goo a{
+        margin-right: 0;
+    }
+    .contact-social li.insta a{
+        margin-right: 0;
+    }
+    .homMapTriangle{
+        display: none;
+    }
+    .contact-social {
+        margin-top: 50px;
+    }
+    .contact-social.pull-right {
+        float: none !important;
+        text-align: center;
+    }
+    /****************** Blog section *****************/
+    .blog-section {
+        padding: 80px 0 30px;
+    }
+    .blog-content {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    /****************** Footer Area *****************/
+    .footer-section {
+        background: none repeat scroll 0 0 #4c4c4c;
+        padding: 60px 0;
+    }
+    .footertriangle{
+        display: none;
+    }
+    /****************** Home 2 Page *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    /****************** Feature Page *****************/
+    img.widthAuto {
+        width: 100%;
+    }
+    .features-area.home2 {
+        padding-bottom: 70px;
+        padding-top: 80px;
+    }
+    .features-area.home2 h3 {
+        margin-top: 30px;
+    }
+    /****************** Our Service *****************/
+    .our-service.home2 {
+        padding: 80px 0;
+    }
+    .our-service.home2 i {
+        margin-bottom: 30px;
+    }
+    .our-service.home2 .service-list {
+        float: left;
+        margin-left: 20px;
+    }
+    /****************** Skill Area *****************/
+    .hom2-skill-area {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+        height: auto;
+        padding: 80px 0 50px;
+    }
+    .skill-rect {
+        display: none;
+    }
+    .chart2,.chart3{
+        margin-bottom: 30px;
+    }
+    .chart2 h4, .chart3 h4, .chart4 h4 {
+        color: #16a4d6;
+    }
+    /****************** Team Member Area *****************/
+    .team-members-area {
+        padding: 80px 0;
+    }
+    .single-member{
+        margin-bottom: 30px;
+    }
+    #carousel-about-generic {
+        padding-bottom: 30px;
+    }
+    /****************** Gallery Area *****************/
+    .gallery-hover.home2 h4{
+        line-height: .8;
+    }
+    /****************** Home 3 Page *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    /****************** Latest Project Area *****************/
+    .latest-project-slider {
+        padding: 80px 0 0;
+    }
+    .latest-project-content p {
+        width: 95%;
+    }
+    .custom-button.home3 {
+        width: 170px;
+    }
+    .latest-project-content {
+        padding: 50px 0 80px;
+    }
+    .project-counter {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+        padding: 75px 0 35px;
+    }
+    .project-count-tringle{
+        display: none;
+    }
+    .project-count {
+        margin-bottom: 40px;
+    }
+    .project-count h2 {
+        color: #3dad66;
+        line-height: 1;
+    }
+    .project-count i {
+        padding-bottom: 0;
+    }
+    /****************** About Company Area *****************/
+    .home3-about-company {
+        padding: 80px 0 70px;
+    }
+    .panel-group.my-accordion {
+        margin-top: 30px;
+    }
+    /****************** Gellery Area *****************/
+    .gallery-area.home3 {
+        padding: 80px 0;
+    }
+    .mixi-button {
+        padding-bottom: 30px;
+    }
+    .mixi-button li {
+        margin-bottom: 10px;
+    }
+    .single-gallery.home3 {
+        margin-left: 0;
+        width: 100%;
+    }
+    .default-pagination {
+        padding-top: 0;
+    }
+    .default-pagination li a {
+        margin-bottom: 10px;
+        padding: 10px 20px;
+    }
+    .default-pagination li:last-child a {
+        margin-right: 0;
+    }
+    /****************** Portfolio Page One *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    .inner-heading {
+        display: none;
+    }
+    /****************** Breadcums Area *****************/
+    .bread-cumbs h1 {
+        font-size: 60px;
+    }
+    /****************** Gellery Area *****************/
+    .custom-button.folio-btn {
+        margin-bottom: 80px;
+        margin-top: 50px;
+    }
+    /****************** Subscribe Area *****************/
+    .subscribe {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    }
+    .subsTriangle {
+        display: none;
+    }
+    .subscribeForm {
+        margin: 0 auto;
+        width: 360px;
+    }
+    /****************** Portfolio Page Two *****************/
+    .folio2 .single-gallery {
+        width: 94.5%;
+    }
+    /****************** Portfolio Page Four *****************/
+    /*-----------------------------------------------
+    //Post Area
+    ------------------------------------------------*/
+    .folio4-post-slider {
+        padding: 80px 0;
+    }
+    /****************** Member Page *****************/
+    /*-----------------------------------------------
+    ///Member Area
+    ------------------------------------------------*/
+    .member-page-area {
+        padding: 80px 0;
+    }
+    .no-padding-left{
+        padding-left: 15px;
+    }
+    .no-padding-right{
+        padding-right: 15px;
+    }
+    .member-histo {
+        padding: 35px 0 0 0;
+        text-align: center;
+    }
+    .member-meta{
+        text-align: left;
+    }
+    .member-histo .comonSocial {
+        float: none;
+    }
+    /****************** Skill Area *****************/
+    .member-page h4{
+        color: #de3c2f;
+    }
+    .member-page .chart4{
+        margin-top: 30px;
+    }
+    .skill-rect2{
+        display: none;
+    }
+    /****************** Events Page *****************/
+    /*-----------------------------------------------
+    ///Widget Area
+    ------------------------------------------------*/
+    .widget-form{
+        margin: 0 auto 50px;
+        width: 292px;
+    }
+    .no-padding{
+        padding: 0 15px;
+    }
+    /****************** Single Event *****************/
+    .singleEvents {
+        padding-left: 0;
+    }
+    .eventThumb {
+        left: auto;
+        margin: 0 auto;
+        position: relative;
+    }
+    .eventDet {
+        padding-right: 0;
+        text-align: center;
+    }
+    .eventDet h4 {
+        font-size: 20px;
+    }
+    .evMeta {
+        text-align: left;
+    }
+    .loadMoreArea {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .side-post .no-padding-left{
+        padding-left: 0;
+    }
+    .side-post .no-padding-right{
+        padding-right: 0;
+    }
+    .side-post .no-padding{
+        padding: 0;
+    }
+    /****************** Single Event Page *****************/
+    /*-----------------------------------------------
+    ///Events Details Area
+    ------------------------------------------------*/
+    .eDDetails {
+        padding: 15px 10px 0px;
+    }
+    .eDDetails h1 {
+        font-size: 50px;
+    }
+    .eventMeta p {
+        margin: 8px 20px 10px 0;
+    }
+    /****************** Contact Page *****************/
+    /*-----------------------------------------------
+    ///Contact Area
+    ------------------------------------------------*/
+    .contactMapSection {
+        height: inherit;
+        padding: 80px 0;
+    }
+    .contactP {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    .contactP i {
+        padding-right: 0;
+    }
+    .blackash {
+        color: #fff;
+    }
+    .contactSocial {
+        margin-top: 25px;
+    }
+    .contactSocialUL {
+        float: none;
+    }
+    .redTriangle {
+        display: none;
+    }
+    .contactSocialUL li a {
+        height: 70px;
+        margin-right: 15px;
+        padding-top: 9px;
+        width: 70px;
+    }
+    .contactForm {
+        padding: 80px 0;
+    }
+    .inputP {
+        width: 100%;
+    }
+    /****************** 404 Page *****************/
+    /*-----------------------------------------------
+    ///404 Area
+    ------------------------------------------------*/
+    .error-404 {
+        padding: 80px 0;
+    }
+    .error-404 h1 {
+        font-size: 200px;
+    }
+    .error-404 p {
+        padding: 25px 20px 0;
+        width: 75%;
+    }
+    /****************** Blog Grid Page *****************/
+    /*-----------------------------------------------
+    ///Grid article Area
+    ------------------------------------------------*/
+    .grid-ariticle {
+        padding: 35px 15px 20px;
+    }
+    .custom-button.grid_btn {
+        margin-bottom: 0;
+    }
+    .grid-ariticle h4 {
+        font-size: 28px;
+    }
+    /****************** Blog Single Page *****************/
+    /*-----------------------------------------------
+    ///Post Area
+    ------------------------------------------------*/
+    .blog-post-content h2 {
+        font-size: 50px;
+    }
+    .blog-post-content ul.blog-category li {
+        margin-right: 20px;
+    }
+    .post-thumb2 {
+        width: 100%;
+    }
+    .small-right-content.pull-left {
+        padding-left: 0;
+        width: 100%;
+    }
+    .author-history {
+        margin-top: 0;
+    }
+    .athor-img {
+        float: none;
+        margin: 0 auto;
+    }
+    .author-bio {
+        float: none;
+        margin: 30px auto 0;
+        text-align: center;
+        width: 100%;
+    }
+    .comment-details {
+        width: 80%;
+    }
+    .reply-two2 .user-img {
+        margin-left: 0;
+    }
+    .reply-two .user-img {
+        margin-left: 0;
+    }
+    .reply-two .comment-details {
+        width: 80%;
+    }
+    .reply-two2 .comment-details {
+        width: 80%;
+    }
+    .comment-form input[type="text"] {
+        width: 100%;
+    }
+    .sidebar .widget-form{
+        margin: 0 0 50px;
+    }
+    /****************** Blog Sidebar Page *****************/
+    /*-----------------------------------------------
+    ///Post Area
+    ------------------------------------------------*/
+    .blog-post-video iframe {
+        height: 300px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+    /****************** Header Area *****************/
+    .header-area {
+        height: 358px;
+        padding-left: 0;
+        width: 100%;
+    }
+    .headerTriangle {
+        left: -140px;
+        width: 320px;
+        overflow: hidden;
+    }
+    .heading {
+        margin-bottom: 30px;
+        padding-left: 15px;
+        width: 50%;
+    }
+    .heading p{
+        display: none;
+    }
+    .heading h1 {
+        font-size: 40px;
+        line-height: 31px;
+        margin-top: 18px;
+    }
+    .logo-img {
+        margin-left: 15px;
+        margin-top: 113px;
+    }
+    .menu {
+        margin-top: 0;
+        display: none;
+    }
+    .menu ul {
+        background: none repeat scroll 0 0 #4c4c4c;
+        text-align: center;
+    }
+    .menu ul > li {
+        padding-bottom: 0;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .menu ul li a {
+        border-top: 1px solid #7f7f7f;
+        color: #fff;
+        display: block;
+        padding: 14px 0;
+        text-align: center;
+        width: 100%;
+    }
+    .drop-menu{
+        display: none;
+        border-top: 5px solid #7f7f7f;
+    }
+    nav .drop-menu {
+        left: 0 !important;
+        opacity: 1;
+        position: relative;
+        top: 100%;
+        visibility: visible;
+        width: 100%;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    nav .drop-menu li a{
+        border: medium none;
+        font-size: 12px;
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+    .menu ul li:hover .drop-menu {
+        left: 0;
+    }
+    #mainCarousle .carousel-indicators{
+        display: none;
+    }
+    /*********** Inner Page Menu *********/
+    .inner-nav ul li ul.drop-menu {
+        width: 100%;
+    }
+    .inner-nav ul li ul.drop-menu{
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        visibility: visible;
+        opacity: 1;
+        top: 100%;
+        position: relative;
+    }
+    .inner-nav ul li ul.drop-menu li a {
+        text-align: center;
+        border: none;
+        font-size: 12px;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        padding: 15px 0;
+        font-weight: 300;
+    }
+    /****************** Slider Area *****************/
+    .slider-area {
+        height: 358px;
+    }
+    .comonItem{
+        height: 360px;
+    }
+    .slider-caption{
+        display: none;
+    }
+    /****************** Feature Area *****************/
+    .features-area{
+        padding: 80px 0 50px;
+    }
+    .single-feature {
+        margin-bottom: 30px;
+        min-height: 320px;
+    }
+    .single-gallery{
+        width: 100%;
+    }
+    .gallery-hover h4{
+        padding-left: 15px;
+        font-size: 20px;
+    }
+    .single-gallery:hover .gallery-hover h4 {
+        bottom: 80px;
+    }
+    .gallery-hover ul{
+        left: 15px;
+    }
+    .single-gallery:hover .gallery-hover ul {
+        bottom: 20px;
+    }
+    /****************** About Area *****************/
+    .about-company {
+        padding: 80px 0;
+    }
+    .common-title {
+        font-size: 40px;
+        text-align: center;
+        line-height: 0.79;
+    }
+    .counting {
+        text-align: center;
+    }
+    .company-description {
+        padding: 0 15px;
+        text-align: center;
+    }
+    .about-company h4 {
+        margin-top: 30px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .company-description h6:before {
+        display: none;
+    }
+    .company-description h6:after {
+        display: none;
+    }
+    .facebook-div,.twitter-div,.instagram-div {
+        padding-left: 20px;
+    }
+    /****************** Skill Area *****************/
+    .skill-area {
+        padding: 70px 0 40px;
+    }
+    .pie-wp h4 {
+        padding-bottom: 40px;
+    }
+    /****************** Testimonial Area *****************/
+    .testinonialTriangle {
+        display: none;
+    }
+    .testimonial-area {
+        padding: 80px 0 125px;
+    }
+    .testimonial-content {
+        text-align: center;
+    }
+    .testimonial-content h2 {
+        color: #de3c2f;
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .testimonial-content p {
+        font-size: 20px;
+        margin-top: 45px;
+        padding-left: 0;
+        width: 100%;
+    }
+    .testimonial-content p:before {
+        left: -25px;
+        top: 5px;
+    }
+    #testimonialCarousel .carousel-indicators {
+        bottom: -48px;
+        left: 0;
+        margin: 0;
+        right: 0;
+        width: 100%;
+    }
+    #testimonialCarousel .carousel-indicators li {
+        margin: 0 8px;
+    }
+    #testimonialCarousel .carousel-indicators li.active {
+        width: 12px;
+        height: 12px;
+    }
+    /****************** Our Service Area *****************/
+    .our-service {
+        padding: 80px 0 50px;
+    }
+    .common-subtitle {
+        margin: 0 auto 42px;
+        width: 100%;
+    }
+    .service-content:first-of-type {
+        padding-top: 0;
+    }
+    .service-list {
+        float: right;
+        margin-top: 5px;
+        text-align: left;
+        width: 65%;
+    }
+    .service-list p {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .service-content i {
+        float: left;
+    }
+    .service-content {
+        margin-bottom: 28px;
+    }
+    .service-list h4 {
+        font-size: 22px;
+    }
+    .mobile-img {
+        margin: 15px auto 45px;
+        width: 100%;
+    }
+    /****************** Latest Post Area *****************/
+    .latest-post {
+        padding: 80px 0;
+    }
+    .post-content ul li {
+        width: 33%;
+    }
+    .post-content {
+        margin-bottom: 30px;
+    }
+    .post-thumb.pull-left {
+        width: 100%;
+    }
+    .post-content.pull-right {
+        width: 100%;
+    }
+    /****************** Contact Area *****************/
+    .map-area {
+        padding: 80px 0;
+    }
+    .contact-address p,
+    .contact-address p a {
+        color: #4c4c4c;
+        font-size: 20px;
+    }
+    .contact-address p i {
+        color: #de3c2f;
+    }
+    .contact-social li.goo a{
+        margin-right: 0;
+    }
+    .contact-social li.insta a{
+        margin-right: 0;
+    }
+    .homMapTriangle{
+        display: none;
+    }
+    .contact-social {
+        margin-top: 50px;
+    }
+    .contact-social.pull-right {
+        float: none !important;
+        text-align: center;
+    }
+    /****************** Blog section *****************/
+    .blog-section {
+        padding: 80px 0 30px;
+    }
+    .blog-content {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    /****************** Footer Area *****************/
+    .footer-section {
+        background: none repeat scroll 0 0 #4c4c4c;
+        padding: 60px 0;
+    }
+    .footertriangle{
+        display: none;
+    }
+    /****************** Home 2 Page *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    /****************** Feature Page *****************/
+    img.widthAuto {
+        width: 100%;
+    }
+    .features-area.home2 {
+        padding-bottom: 70px;
+        padding-top: 80px;
+    }
+    .features-area.home2 h3 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    /****************** Our Service *****************/
+    .our-service.home2 {
+        padding: 80px 0;
+    }
+    .our-service.home2 i {
+        margin-bottom: 30px;
+    }
+    .our-service.home2 .service-list {
+        float: left;
+        margin-left: 20px;
+    }
+    /****************** Skill Area *****************/
+    .hom2-skill-area {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+        height: auto;
+        padding: 80px 0 50px;
+    }
+    .skill-rect {
+        display: none;
+    }
+    .chart2,.chart3{
+        margin-bottom: 30px;
+    }
+    .chart2 h4, .chart3 h4, .chart4 h4 {
+        color: #16a4d6;
+    }
+    /****************** Team Member Area *****************/
+    .team-members-area {
+        padding: 80px 0;
+    }
+    .single-member{
+        margin-bottom: 30px;
+    }
+    #carousel-about-generic {
+        padding-bottom: 30px;
+    }
+    /****************** Gallery Area *****************/
+    .gallery-hover.home2 h4{
+        line-height: .8;
+    }
+    /****************** Home 3 Page *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    /****************** Latest Project Area *****************/
+    .latest-project-slider {
+        padding: 80px 0 0;
+    }
+    .latest-project-content p {
+        width: 95%;
+    }
+    .custom-button.home3 {
+        width: 170px;
+    }
+    .latest-project-content {
+        padding: 50px 0 80px;
+    }
+    .project-counter {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+        padding: 75px 0 35px;
+    }
+    .project-count-tringle{
+        display: none;
+    }
+    .project-count {
+        margin-bottom: 40px;
+    }
+    .project-count h2 {
+        color: #3dad66;
+        line-height: 1;
+    }
+    .project-count i {
+        padding-bottom: 0;
+    }
+    /****************** About Company Area *****************/
+    .home3-about-company {
+        padding: 80px 0 70px;
+    }
+    .panel-group.my-accordion {
+        margin-top: 30px;
+    }
+    /****************** Gellery Area *****************/
+    .gallery-area.home3 {
+        padding: 80px 0;
+    }
+    .mixi-button {
+        padding-bottom: 30px;
+    }
+    .mixi-button li {
+        margin-bottom: 10px;
+    }
+    .single-gallery.home3 {
+        margin-left: 0;
+        width: 100%;
+    }
+    .default-pagination {
+        padding-top: 0;
+    }
+    .default-pagination li a {
+        font-size: 14px;
+        margin-bottom: 10px;
+        padding: 7px 14px;
+        margin-right: 4px;
+    }
+    .default-pagination li:last-child a {
+        margin-right: 0;
+    }
+    /****************** Portfolio Page One *****************/
+    /*-----------------------------------------------
+    //Header Area
+    ------------------------------------------------*/
+    .inner-heading {
+        display: none;
+    }
+    .inner-nav{
+        display: none;
+        width: 100%;
+        background: #444;
+    }
+    .inner-nav ul{
+        background: none repeat scroll 0 0 #444;
+        text-align: center;
+    }
+    .inner-nav ul li {
+        display: block;
+    }
+    .inner-nav ul li a {
+        border-top: 1px solid #7f7f7f;
+        color: #fff;
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+    }
+    /****************** Breadcums Area *****************/
+    .bread-cumbs h1 {
+        font-size: 40px;
+    }
+    .bread-cumbs ul li a {
+        font-size: 18px;
+    }
+    .bread-cumbs ul li a:after {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /****************** Gellery Area *****************/
+    .custom-button.folio-btn {
+        margin-bottom: 80px;
+        margin-top: 45px;
+    }
+    /****************** Subscribe Area *****************/
+    .subscribe {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    }
+    .subsTriangle {
+        display: none;
+    }
+    .subscribeForm {
+        margin: 0 auto;
+        width: 290px;
+    }
+    .subscribeForm input[type="email"] {
+        width: 250px;
+    }
+    /****************** Portfolio Page Three *****************/
+    /*-----------------------------------------------
+    //Gellery Area
+    ------------------------------------------------*/
+    .folio3-gallery h4 {
+        line-height: 0.82;
+    }
+    .folio3-gallery p {
+        width: 95%;
+    }
+    /****************** Portfolio Page Two *****************/
+    .folio2 .single-gallery {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    /****************** Portfolio Page Four *****************/
+    /*-----------------------------------------------
+    //Post Area
+    ------------------------------------------------*/
+    .folio4-post-content h2 {
+        font-size: 45px;
+    }
+    .folio4-post-slider {
+        padding: 80px 0;
+    }
+    /****************** Member Page *****************/
+    /*-----------------------------------------------
+    ///Member Area
+    ------------------------------------------------*/
+    .member-page-area {
+        padding: 80px 0;
+    }
+    .no-padding-left{
+        padding-left: 15px;
+    }
+    .no-padding-right{
+        padding-right: 15px;
+    }
+    .member-histo {
+        padding: 35px 0 0 0;
+        text-align: center;
+    }
+    .member-meta{
+        text-align: left;
+    }
+    .member-histo .comonSocial {
+        float: none;
+    }
+    /****************** Skill Area *****************/
+    .member-page h4{
+        color: #de3c2f;
+    }
+    .member-page .chart4{
+        margin-top: 30px;
+    }
+    .skill-rect2{
+        display: none;
+    }
+    /****************** Events Page *****************/
+    /*-----------------------------------------------
+    ///Widget Area
+    ------------------------------------------------*/
+    .widget-form{
+        margin: 0 auto 50px;
+        width: 292px;
+    }
+    .sidebar-area.no-padding,
+    .sidebar-area .no-padding,
+    .widget .no-padding{
+        padding: 0 15px;
+    }
+    /****************** Single Event *****************/
+    .singleEvents {
+        padding-left: 0;
+    }
+    .eventThumb {
+        left: auto;
+        margin: 0 auto;
+        position: relative;
+    }
+    .eventDet {
+        padding-right: 0;
+        text-align: center;
+    }
+    .eventDet h4 {
+        font-size: 20px;
+    }
+    .evMeta {
+        text-align: left;
+    }
+    .loadMoreArea {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .side-post .no-padding-left{
+        padding-left: 0;
+    }
+    .side-post .no-padding-right{
+        padding-right: 0;
+    }
+    .side-post .no-padding{
+        padding: 0;
+    }
+    /****************** Single Event Page *****************/
+    /*-----------------------------------------------
+    ///Events Details Area
+    ------------------------------------------------*/
+    .eDDetails {
+        padding: 15px 10px 0px;
+    }
+    .eDDetails h1 {
+        font-size: 40px;
+    }
+    .eventMeta p {
+        margin: 8px 5px 10px 0;
+    }
+    /****************** Contact Page *****************/
+    /*-----------------------------------------------
+    ///Contact Area
+    ------------------------------------------------*/
+    .contactMapSection {
+        height: inherit;
+        padding: 80px 0;
+    }
+    .contactP {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    .contactP i {
+        padding-right: 0;
+    }
+    .blackash {
+        color: #fff;
+    }
+    .contactSocial {
+        margin-top: 25px;
+    }
+    .contactSocialUL {
+        float: none;
+    }
+    .redTriangle {
+        display: none;
+    }
+    .contactSocialUL li a {
+        height: 70px;
+        margin-right: 15px;
+        padding-top: 9px;
+        width: 70px;
+    }
+    .contactForm {
+        padding: 80px 0;
+    }
+    .inputP {
+        width: 100%;
+    }
+    /****************** 404 Page *****************/
+    /*-----------------------------------------------
+    ///404 Area
+    ------------------------------------------------*/
+    .error-404 {
+        padding: 80px 0;
+    }
+    .error-404 h1 {
+        font-size: 150px;
+    }
+    .error-404 h2 {
+        font-size: 26px;
+    }
+    .error-404 p {
+        padding: 25px 20px 0;
+        width: 100%;
+    }
+    /****************** Blog Grid Page *****************/
+    /*-----------------------------------------------
+    ///Grid article Area
+    ------------------------------------------------*/
+    .grid-ariticle {
+        padding: 35px 15px 20px;
+    }
+    .custom-button.grid_btn {
+        margin-bottom: 0;
+    }
+    .grid-ariticle h4 {
+        font-size: 28px;
+    }
+    /****************** Blog Single Page *****************/
+    /*-----------------------------------------------
+    ///Post Area
+    ------------------------------------------------*/
+    .blog-post-content h2 {
+        font-size: 40px;
+    }
+    .blog-post-content ul.blog-category li {
+        margin-right: 8px;
+    }
+    .post-thumb2 {
+        width: 100%;
+    }
+    .small-right-content.pull-left {
+        padding-left: 0;
+        width: 100%;
+    }
+    .author-history {
+        margin-top: 0;
+    }
+    .athor-img {
+        float: none;
+        margin: 0 auto;
+    }
+    .author-bio {
+        float: none;
+        margin: 30px auto 0;
+        text-align: center;
+        width: 100%;
+    }
+    .comment-details {
+        margin-top: 10px;
+        padding-left: 0;
+        width: 100%;
+    }
+    .reply-two2 .user-img {
+        margin-left: 0;
+    }
+    .reply-two .user-img {
+        margin-left: 0;
+    }
+    .reply-two .comment-details {
+        width: 100%;
+    }
+    .reply-two2 .comment-details {
+        width: 100%;
+    }
+    .comment-form input[type="text"] {
+        width: 100%;
+    }
+    .sidebar .widget-form{
+        margin: 0 0 50px;
+    }
+    /****************** Blog Sidebar Page *****************/
+    /*-----------------------------------------------
+    ///Post Area
+    ------------------------------------------------*/
+    .blog-post-video iframe {
+        height: 230px;
+    }
+    .inerPageheader .menuButtonArea{
+        width: 75% !important;
+    }
+    .presetArea{
+        display: none;
+    }
+}

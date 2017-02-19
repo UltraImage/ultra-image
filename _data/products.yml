@@ -1,0 +1,16 @@
+- title: "l'oréal"
+  subTitle: "paris"
+  imgUrl: "/images/folio/products/loreal-paris.jpg"
+  urls:
+    - name: "Main"
+      path: "https://www.facebook.com/pg/ultraimagesi/photos/?tab=album&album_id=454202361603115"
+    - name: "Sub1"
+      path: "https://www.facebook.com/pg/ultraimagesi/photos/?tab=album&album_id=458287747861243"
+    - name: "Sub2"
+      path: "https://www.facebook.com/pg/ultraimagesi/photos/?tab=album&album_id=458284994528185"
+- title: "nashi"
+  subTitle: "argan"
+  imgUrl: "/images/folio/products/nashi-argan.jpg"
+  urls:
+    - name: "Main"
+      path: "https://www.facebook.com/pg/ultraimagesi/photos/?tab=album&album_id=454213141602037"

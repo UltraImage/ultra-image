@@ -1,0 +1,32 @@
+exclude: [ "README.md", "package.json", "lib", "src", "gulp", "CNAME", "Gemfile", "Gemfile.lock", ".idea", "node_modules" ]
+
+title: "Frizerski salon Ultra Image"
+description: "Frizerski salon Ultra Image. Od leta 2008 skrbimo za vas in vaše lase, z mladim kolektivom strmimo k temu da se stranke pri nas počutite dobrodošle, domače ob tem pa še polepšane in urejene."
+url: "https://ultra-image.si"
+logoPath: "/assets/img/logo.png"
+
+# Social
+facebook: "https://www.facebook.com/ultraimagesi"
+twitter: "https://twitter.com/ultraimagesi"
+instagram: "https://www.instagram.com/ultra.image.si"
+
+# Animation
+wowDuration: "700ms"
+wowDelay: "300ms"
+wowDelay2: "400ms"
+wowDelay3: "500ms"
+wowDelay4: "600ms"
+
+permalink: pretty
+
+markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+      disable : true
+

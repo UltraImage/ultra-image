@@ -1,0 +1,34 @@
+{% assign products = site.data.products %}
+
+<!--================= Products Section ==================-->
+<section class="about-company">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center wow fadeInUp" data-wow-duration="{{ site.wowDuration }}" data-wow-delay="{{ site.wowDelay2 }}">
+                <h2 class="common-title">Naši<span class="marginTop10">izdelki</span></h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="gallery-area products-area">
+    {% for product in products %}
+        <div class="single-gallery wow fadeInUp" data-wow-duration="{{ site.wowDuration }}" data-wow-delay="{{ site.wowDelay3 }}">
+            <img src="{{ product.imgUrl }}" alt="">
+            <div class="gallery-hover">
+                <h4>{{ product.title }}<span>{{ product.subTitle }}</span></h4>
+                <ul>
+                    <li><a href="{{ product.imgUrl }}" data-rel="prettyPhoto"><i class="icon-search-6"></i></a></li>
+                    {% for url in product.urls %}
+                        <li><a target="_blank" href="{{ url.path }}"><i class="icon-link-4"></i></a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    {% endfor %}
+</section>
+<section class="about-company">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</section>

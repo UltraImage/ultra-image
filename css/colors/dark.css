@@ -1,0 +1,354 @@
+/************************** Header ****************************/
+.headerTriangle{background: #4c4c4c;}
+/*.logo-img a{background: #f6ac03;}*/
+.heading h1{color: #FFF;}
+.heading p{color: #b3b3b3;}
+.menu ul li a{color: #ffffff;}
+nav .drop-menu li a:hover{color: #f6ac03;}
+.inner-logo a{background: #f6ac03;}
+
+
+/************************** Features ******************************/
+.features-area { background: url("../../images/bg/diagonal_3.png") repeat scroll 0 0 #4c4c4c; }
+.single-feature i{color: #f6ac03;}
+.single-feature a{background: #f6ac03; border-color: #dd9a03;}
+.single-feature a:hover{background: #4c4c4c; border-color: #444;}
+
+/************************** Portfolio *******************************/
+.gallery-hover ul li a{background: #f6ac03;}
+.gallery-hover ul li:first-child a{background: #f6ac03;}
+.gallery-hover ul li:first-child a:hover{background: #de3c2f;}
+
+/************************* About Company *****************************/
+.about-company{background: #4c4c4c;}
+.common-title{color: #FFF;}
+.counting p{color: #FFF;}
+.counting h2{color: #f6ac03;}
+.company-description p{color: #b2b2b2;}
+.company-description h6::before, .company-description h6::after{color: #fff;}
+.company-description h6{color: #FFF;}
+.company-description ul li{color: #FFF;}
+.company-description ul li a{color: #FFF;}
+.instagramers p, .twitees p, .likes p{color: #fff;}
+
+/************************ Skill Area ************************************/
+.skill-area { background: url("../../images/bg/diagonal_3.png") repeat scroll 0 0 #4c4c4c; }
+.chart{background: #4c4c4c;}
+.percent{color: #f6ac03;}
+.skill-area .pie-wp h4{color: #b2b2b2;}
+
+/************************* Testimonial *******************************/
+.testinonialTriangle{background: #f6ac03;}
+
+/************************* Our Service*********************************/
+.our-service{background: #4c4c4c;}
+.common-subtitle{color: #FFF;}
+.service-list h4{color: #FFF;}
+.service-list p{color: #b2b2b2;}
+.service-content i{background: #f6ac03;}
+
+/************************* Latest blog ********************************/
+.latest-post { background: url("../../images/bg/diagonal_3.png") repeat scroll 0 0 #4c4c4c; }
+.post-content ul li a, .post-content.pull-right ul li a{background: #f6ac03; border-color: #dd9a03;}
+.post-content h4 a:hover{color: #f6ac03;}
+.post-content ul li:last-child a{border-right-color: #f6ac03;}
+.post-content.pull-right ul li a:hover{border-color: #444444; background: #4c4c4c;}
+
+/************************* Contact Area **************************/
+.homMapTriangle{background: #FFF;}
+.contact-address .common-title{color: #f6ac03;}
+.contact-address p i{color: #4c4c4c;}
+.contact-address p, .contact-address p a{color: #7f7f7f;}
+.contact-address p:hover, .contact-address p a:hover{color: #4c4c4c;}
+
+/************************* Footer Blog *****************************/
+.blog-section{background: #4c4c4c;}
+.blog-content h4{color: #FFF;}
+.blog-content p{color: #b2b2b2;}
+.custom-button{background: #f6ac03;}
+.custom-button:hover{background: #dd9a03;}
+
+/************************ Footer ************************************/
+.footertriangle{background: #FFF;}
+/*h4.footerName{color: #4c4c4c;}*/
+/*p.copy, p.copy a{color: #7f7f7f;}*/
+/*p.copy a:hover{color: #f6ac03;}*/
+
+/************************ 404 ************************************/
+.bread-cumbs {background: url("../../images/bg/diagonal_3.png") repeat scroll 0 0 #4c4c4c;}
+.bread-cumbs h1{color: #FFF;}
+.bread-cumbs ul li a::after{color: #7f7f7f;}
+.bread-cumbs ul li:last-child a{color: #b2b2b2;}
+.bread-cumbs ul li a{color: #f6ac03;}
+.bread-cumbs ul li a:hover{color: #dd9a03;}
+.bread-cumbs ul li:last-child a:hover{color: #b2b2b2;}
+.error-404{background: #4c4c4c;}
+.error-404 h1{color: #f6ac03;}
+.error-404 h2{color: #b2b2b2;}
+.error-404 p{color: #b2b2b2;}
+.subsTriangle{background: #f6ac03;}
+.subscribeForm button{background: #4c4c4c;}
+.subscribeForm button:hover{color: #f6ac03;}
+.inner-heading h3 a:hover{color: #f6ac03;}
+
+/************************** About Us Page ********************************/
+.about-us-area{background: #4c4c4c;}
+.about-us-area p{color: #b2b2b2;}
+.features-list li{color: #b2b2b2;}
+.features-list li::before{color: #f6ac03;}
+.features-list li{border-color: #b2b2b2;}
+.about-us .panel-title a{background: #f6ac03;}
+.my-accordion .panel.panel-default{border-color: #7f7f7f;}
+.my-accordion .panel.panel-default{background: #444;}
+.my-accordion .panel-title a.collapsed{background: #444;}
+.my-accordion .panel-title a.collapsed:hover{background: #f6ac03;}
+.my-accordion .panel-body{color: #b2b2b2;}
+.project-counter.about-us .project-count-tringle{background: #f6ac03;}
+.about-us .project-count.two h2{color: #f6ac03;}
+.team-members-area{background: #4c4c4c;}
+.single-member{border-color: #7f7f7f;}
+.single-member h4 a{color: #FFF;}
+.single-member p{color: #b2b2b2;}
+.single-member span, .single-member h4 a:hover{color: #f6ac03;}
+
+/************************ Blog grid ****************************************/
+.commonPage{background: #4c4c4c;}
+.grid-container{border-color: #7f7f7f;}
+.grid-container{background: #444;}
+.grid-container .grid-ariticle h4 a{color: #FFF;}
+.grid-container .grid-ariticle h4 a:hover{color: #f6ac03;}
+.grid-container .grid-ariticle p{color: #b2b2b2;}
+.grid-ariticle ul{border-color: #7f7f7f;}
+.grid-ariticle ul li i{color: #f6ac03;}
+.grid-ariticle ul li a{color: #b2b2b2;}
+.grid-ariticle ul li a:hover{color: #f6ac03;}
+.comment-count{background: #FFF;}
+.grid-container .grid-ariticle .comment-count p{color: #dd9a03;}
+.custom-button.grid_btn{background: #f6ac03;}
+.custom-button.grid_btn:hover{background: #dd9a03;}
+
+/*************************** Single Blog Post *******************************/
+.blog-post-content h2{color: #FFF;}
+.blog-post-content p.blog-author{border-color: #7f7f7f; color: #b2b2b2;}
+.blog-post-content p.blog-author a{color: #f6ac03;}
+.blog-post-content p.blog-author a:hover{color: #b2b2b2;}
+.blog-post-content ul.blog-category li i{color: #f6ac03;}
+.blog-post-content ul.blog-category li a{color: #b2b2b2;}
+.blog-post-content ul.blog-category li a:hover{color: #f6ac03;}
+.blog-post-content ul.blog-category li{color: #b2b2b2;}
+.blog-post-content ul.blog-category li:nth-child(2) a{color: #f6ac03;}
+.blog-post-content ul.blog-category li:nth-child(2) a:hover{color: #b2b2b2;}
+.blog-post-content p.highlighted-text{color: #fff;}
+.blog-post-content p{color: #b2b2b2;}
+blockquote{color: #b2b2b2; border-color: #f6ac03;}
+.author-history{border-color: #7f7f7f;}
+.author-bio h4{color: #fff;}
+.author-bio span{color: #f6ac03;}
+.author-bio p{color: #b2b2b2;}
+.comment-meta a{color: #f6ac03;}
+.comment-meta a:hover{color: #b2b2b2;}
+.comment-meta span{color: #b2b2b2;}
+.single-comment{color: #b2b2b2;}
+.comment-section ol li{border-color: #7f7f7f;}
+.comment-form input[type="text"]{background: none; border-color: #7f7f7f; color: #b2b2b2;}
+.comment-form textarea{border-color: #7f7f7f; color: #b2b2b2; background:  none;}
+.widget-title{color: #fff;}
+.text-widget p{color: #b2b2b2;}
+a.tags{background: #444;}
+a.tags:hover{background: #f6ac03;}
+.widget-form input{border-color: #7f7f7f; color: #b2b2b2; background: none;}
+.widget-form button{background: #f6ac03;}
+.widget-form button:hover{color: #4c4c4c;}
+.widget ul li a::after{color: #f6ac03;}
+.widget ul li a{color: #b2b2b2;}
+.widget ul li a:hover{color: #f6ac03;}
+.widget ul li a{border-color: #7f7f7f;}
+.side-post a{color: #f6ac03;}
+.side-post a:hover{color: #b2b2b2;}
+.side-post a.side-post-title{color: #b2b2b2;}
+.side-post a.side-post-title:hover{color: #f6ac03;}
+.side-post{border-color: #7f7f7f;}
+.calendarWidget{border-color: #7f7f7f;}
+.calendarWidget table caption{color: #FFF;}
+.calendarWidget table tr th{color: #b2b2b2;}
+.calendarWidget table tr td{color: #b2b2b2;}
+.calendarButton a{background: #f6ac03;}
+.calendarButton a:hover{background: #444;}
+
+
+/*************** Blog Sidebar **************************/
+.blog-post-content h2 a{color: #FFF;}
+.blog-post-content h2 a:hover{color: #f6ac03;}
+.default-pagination li a{background: #444;}
+.default-pagination li a:hover, .default-pagination li a.active{background: #f6ac03;}
+.default-pagination.blog-pagi li a:hover{background: #f6ac03;}
+
+
+/************* Contact *********************************/
+.redTriangle{background: #f6ac03;}
+.contactForm{background: #4c4c4c;}
+.inputP input{background: none; border-color: #7f7f7f; color: #b2b2b2;}
+.inputP input:focus, .contactFormHolder textarea:focus{border-color: #f6ac03;}
+.contactFormHolder textarea{background: none; border-color: #7f7f7f; color: #b2b2b2;}
+input.sb_button[type="submit"]{background: #f6ac03;}
+input.sb_button[type="submit"]:hover{background: #dd9a03;}
+
+
+/************* Events *********************************/
+.singleEvents{border-color: #7f7f7f;}
+.eventDet h4 a{color: #FFF;}
+.eventDet h4 a:hover{color: #f6ac03;}
+.eventDet p{color: #b2b2b2;}
+.evMeta{border-color: #7f7f7f;}
+.evMeta p i{color: #f6ac03;}
+.evMeta p{color: #b2b2b2;}
+.loadMoreArea a.sb_button{background: #f6ac03;}
+.loadMoreArea a.sb_button:hover{background: #dd9a03;}
+
+/************* Folio 1 *********************************/
+.gallery-hover ul li:first-child a:hover{background: #dd9a03;}
+.gallery-hover ul li:not(:first-child) a:hover{color: #f6ac03;}
+.gallery-area{background: #4c4c4c;}
+
+
+/************* Folio 2 *********************************/
+.mixi-button li{background: #444444;}
+.mixi-button li.active, .mixi-button li:hover{background: #f6ac03;}
+.mixi-button.flio2 li:hover{background: #f6ac03;}
+.default-pagination.folio2 li a:hover{background: #f6ac03;}
+
+/************* Folio 3 *********************************/
+.folio3-gallery{border-color: #7f7f7f; background: #444444;}
+.folio3-gallery h4{color: #FFF;}
+.folio3-gallery .category{color: #b2b2b2;}
+.folio3-gallery .category a{color: #f6ac03;}
+.folio3-gallery .category a:hover{color: #b2b2b2;}
+.folio3-gallery p{color: #b2b2b2;}
+
+/******************* Folio 4 *****************************/
+.folio4-post-slider{background: #4c4c4c;}
+.folio4-post-content{border-color: #7f7f7f; background: #444444;}
+.folio4-post-content h2{color: #FFF;}
+.folio4-post-content span{color: #f6ac03;}
+.folio4-post-content p{color: #b2b2b2;}
+
+/******************* Index 2 *****************************/
+.features-area.home2 h3{color: #FFF;}
+.features-area.home2 p{color: #b2b2b2;}
+.skill-rect{background: #f6ac03;}
+.chart3 h4{color: #f6ac03;}
+.our-service.home2 i{background: #f6ac03;}
+.post-content.home2 ul li a{background: #f6ac03; border-color: #dd9a03;}
+.post-content.pull-right ul li a.blue:hover{background: #4c4c4c; border-color: #444444;}
+.gallery-hover.home2 ul li:first-child a{background: #f6ac03; color: #FFF;}
+.gallery-hover.home2 ul li:first-child a:hover{color: #4c4c4c;}
+.gallery-hover.home2 ul li:last-child a:hover{color: #f6ac03;}
+.counting.home2 h2{color: #f6ac03;}
+.contact-address.home2 .common-title{color: #f6ac03;}
+.blog-content.home2 .custom-button{background: #f6ac03;}
+.blog-content.home2 .custom-button:hover{background: #dd9a03;}
+.single-member h4{color: #FFF;}
+.home2 .single-member span{color: #f6ac03;}
+#carousel-about-generic .carousel-indicators li{background: #f6ac03;}
+#carousel-about-generic .carousel-indicators li.active{border-color: #f6ac03;}
+
+/************************* Index3 **********************************/
+.latest-project-slider{background: url("../../images/bg/diagonal_3.png") repeat scroll 0 0 #4c4c4c;}
+.latest-project-content{background: #4c4c4c;}
+.latest-project-content h3{color: #FFF;}
+.latest-project-content p{color: #b2b2b2;}
+.custom-button.home3{background: #f6ac03;}
+.custom-button.home3:hover{background: #dd9a03;}
+.project-count-tringle{background: #f6ac03;}
+.project-count.two h2{color: #f6ac03;}
+.home3-about-company{background: url("../../images/bg/diagonal_3.png") repeat scroll 0 0 #4c4c4c;}
+.home3-about-company p{color: #b2b2b2;}
+.features-list.home3 li::before{color: #f6ac03;}
+.gallery-area.home3{background: #4c4c4c;}
+.mixi-button.green li.active, .mixi-button.green li:hover{background: #f6ac03;}
+.gallery-hover.home3 ul li:first-child a{background: #f6ac03;}
+.gallery-hover.home3 ul li:last-child a:hover{color: #f6ac03;}
+.default-pagination.green li a:hover, .default-pagination.green li a.active{background: #f6ac03;}
+.contact-address.home3 .common-title{color: #f6ac03;}
+.blog-content.home3 .custom-button{background: #f6ac03;}
+.blog-content.home3 .custom-button:hover{background: #dd9a03;}
+.my-accordion .panel-title a{background: #f6ac03;}
+
+/*************************** Events Single *******************************/
+.eDDetails h1{color: #FFF;}
+.eventMeta p i{color: #f6ac03;}
+.eventMeta p{color: #b2b2b2;}
+.eventMeta p a:hover{color: #b2b2b2;}
+.eventMeta p a{color: #f6ac03;}
+.edescription p.excerpt{color: #b2b2b2;}
+.edescription p{color: #b2b2b2;}
+.eventDetails, .eventMeta{border-color: #7f7f7f;}
+
+/***************************** Member *****************************************/
+.member-page-area{background: #4c4c4c;}
+.member-border{border-color: #7f7f7f;}
+.member-histo h4{color: #FFF;}
+.member-histo p{color: #b2b2b2;}
+.member-meta li{color: #b2b2b2;}
+.member-meta li i{color: #f6ac03;}
+.member-meta li:nth-child(2n){border-color: #7f7f7f;}
+.skill-rect2{background: #f6ac03;}
+
+/*************************** New **************************************/
+.slider-caption h2::before{background: #f6ac03;}
+.switch::before{background: #f6ac03;}
+
+#backToTop::before{border-bottom-color: #f6ac03;}
+.inner-nav ul li a:hover, .inner-nav ul li:hover > a{color: #f6ac03;}
+.inner-nav ul li ul.drop-menu li a:hover{color: #f6ac03;}
+nav .drop-menu li a:hover{color: #dd9a03;}
+
+
+.our-service.home2 i{background: #f6ac03;}
+.skill-rect{background: #f6ac03;}
+.post-content.home2 ul li a{background: #f6ac03; border-color: #dd9a03;}
+.post-content.pull-right ul li a.blue:hover{background: #f6ac03; border-color: #dd9a03;}
+.home2 .single-member span{color: #f6ac03;}
+.counting.home2 h2{color: #f6ac03;}
+.contact-address.home2 .common-title{color: #f6ac03;}
+.blog-content.home2 .custom-button{background: #f6ac03;}
+.menu ul li.active > a{
+    font-weight: 700;
+}
+.inner-nav ul li.active > a {
+    color: #f6ac03;
+    font-weight: 700;
+}
+
+
+/************************ Loader *****************************/
+.loaderWraper{background: #4c4c4c;}
+.loading .finger-item i{background: #4c4c4c;}
+.loading .last-finger-item i::after{background: #4c4c4c;}
+.loading .finger-item span::before, .loading .finger-item span::after{background: #4c4c4c;}
+
+#backToTop::before{background: #4c4c4c;}
+#backToTop:hover{color: #FFF;}
+
+
+.pricingSection{background: #444;}
+.singlePricing{background: #4c4c4c; border-color: #7f7f7f;}
+.pricingHead{border-color: #7f7f7f;}
+.pricingBody span{border-color: #7f7f7f; color: #7f7f7f;}
+.price{color: #fff;}
+.priceFooter .sb_button:hover{background: #4c4c4c;}
+.price2{background: #4c4c4c; border-color: #7f7f7f;}
+.p2Body p, .priceBody p{color: #7f7f7f; border-color: #7f7f7f;}
+.p2Foot a, .p2Foot a{background: #444;}
+.p2Head{border-color: #7f7f7f;}
+.p2Head, .priceHead p{color: #FFF;}
+.price3 .priceHead::after{border-color: #7f7f7f transparent transparent}
+.camBtn6{overflow: hidden;}
+.camBtn6:hover{background: #444;}
+.singlePrice, .p2Foot, .p2Foot{border-color: #7f7f7f;}
+.singlePrice{background: #4c4c4c;}
+
+/*CUSTOM*/
+.h4Head { color: #FFF; }
+.marginTop10 { margin-top: 10px; }
+.company-description .noMarginTop { margin-top: 0px; }

@@ -1,0 +1,39 @@
+{% assign employees = site.data.employees %}
+
+<!--================= Team Members Section ==================-->
+<section class="team-members-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center wow fadeInUp" data-wow-duration="{{ site.wowDuration }}" data-wow-delay="{{ site.wowDelay2 }}">
+                <h2 class="common-title">naša <span>ekipa</span></h2>
+            </div>
+        </div>
+        <div class="row home2 wow fadeInUp" data-wow-duration="{{ site.wowDuration }}" data-wow-delay="{{ site.wowDelay2 }}">
+            <div id="carousel-about-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-about-generic" data-slide-to="0" class="active hidden"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active col-lg-offset-3 col-sm-offset-3">
+                        {% for employee in employees %}
+                        <div class="col-lg-4 col-sm-4 col-xs-12 text-center">
+                            <div class="single-member">
+                                <div class="team-img">
+                                    <img alt="" src="{{ employee.imgUrl }}">
+                                </div>
+                                <h4>{{ employee.name }}</h4>
+                                <span>{{ employee.title }}</span>
+                                <p>{{ employee.description }}</p>
+                                <br>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
